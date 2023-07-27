@@ -1,130 +1,45 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="imagens/festa2.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <title>Aluga Festa</title>
-    <style>
-        body{
-            height: 100vh;
-            /* 
-            background-color: aliceblue;
-            background-image: url('imagens/imagem-inicio.png');
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-attachment: fixed;  */
-            background: black url(imagens/16395970_rm373batch15-bg-11.jpg) center center no-repeat fixed;
-            background-size: cover;
-
-        }
-        header{
-            background-color: rgba(255, 255, 255, 0.685);
-            padding-left:10px;
-        }
-        nav{
-            
-        }
-        nav a {
-            background-color: rgba(0, 0, 0, 0.664);
-            color: aliceblue;
-            display: inline-block;
-            padding: 5px;
-        }
-        main{
-            font-family: sans-serif;
-            text-align: justify;
-            background-color: white;
-            width: 600px;
-            padding: 10px;
-            margin: auto;
-            border: 1px solid black;
-            border-radius: 10px;
-        }
-        section{
-
-        }
-        section > h1 {
-            font-size: 3em;
-            font-weight: bolder;
-        }
-        section > p {
-            text-align: justify;
-        }
-        section > h2 {
-            font-size: 2em;
-        }
-        aside{
-            border: 1px solid black;
-            text-align: justify;
-        }
-        footer{
-            font-family: sans-serif;
-            color: white;
-            font-size: smaller;
-            text-align:center;
-            background-color: rgba(0, 0, 0, 0.603);
-            padding: 20px;
-        }
-        
-    </style>
+	<title>Site de Vídeo</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>
-            <a href="index.html"><img src="imagens/imagem-inicio.png" height="50" width="50" alt="inicio"></a>
-        </h1>
-    </header>
+	<header>
+		<h1>Site de Vídeo</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Início</a></li>
+				<li><a href="#">Vídeos</a></li>
+				<li><a href="#">Sobre</a></li>
+				<li><a href="#">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
 
-    <nav>
-        <ul>
-            <a href="#">Fotos</a>
-            <a href="#">Itens</a>
-            <a href="#">Serviços</a>
-            <a href="#">Fale Conosco</a>
-        </ul>
-    </nav>
+	<main>
+		<h2>Vídeos em Destaque</h2>
+		<div class="video">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/7fMttPxpcmg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<h3>Video 1</h3>
+			<p>Descrição do vídeo 1</p>
+		</div>
 
-    <main>
-        <section>
-            <h1>Wukong</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita illo quisquam quasi nihil hic necessitatibus voluptatem repellendus! Veniam, non! Ab iste ad labore, voluptates a sapiente aperiam quos quod unde.</p>
-            <h2>Itens</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ex iste excepturi modi, perferendis sapiente ut amet debitis quod? Soluta iusto aperiam rem totam at. Veritatis ratione nisi excepturi totam.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ex iste excepturi modi, perferendis sapiente ut amet debitis quod? Soluta iusto aperiam rem totam at. Veritatis ratione nisi excepturi totam.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ex iste excepturi modi, perferendis sapiente ut amet debitis quod? Soluta iusto aperiam rem totam at. Veritatis ratione nisi excepturi totam.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ex iste excepturi modi, perferendis sapiente ut amet debitis quod? Soluta iusto aperiam rem totam at. Veritatis ratione nisi excepturi totam.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ex iste excepturi modi, perferendis sapiente ut amet debitis quod? Soluta iusto aperiam rem totam at. Veritatis ratione nisi excepturi totam.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ex iste excepturi modi, perferendis sapiente ut amet debitis quod? Soluta iusto aperiam rem totam at. Veritatis ratione nisi excepturi totam.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ex iste excepturi modi, perferendis sapiente ut amet debitis quod? Soluta iusto aperiam rem totam at. Veritatis ratione nisi excepturi totam.</p>
-            <h2>Forma de jogar</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ex iste excepturi modi, perferendis sapiente ut amet debitis quod? Soluta iusto aperiam rem totam at. Veritatis ratione nisi excepturi totam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ex iste excepturi modi, perferendis sapiente ut amet debitis quod? Soluta iusto aperiam rem totam at. Veritatis ratione nisi excepturi totam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ex iste excepturi modi, perferendis sapiente ut amet debitis quod? Soluta iusto aperiam rem totam at. Veritatis ratione nisi excepturi totam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ex iste excepturi modi, perferendis sapiente ut amet debitis quod? Soluta iusto aperiam rem totam at. Veritatis ratione nisi excepturi totam.</p>
-            <h2>Habilidades</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ex iste excepturi modi, perferendis sapiente ut amet debitis quod? Soluta iusto aperiam rem totam at. Veritatis ratione nisi excepturi totam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ex iste excepturi modi, perferendis sapiente ut amet debitis quod? Soluta iusto aperiam rem totam at. Veritatis ratione nisi excepturi totam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ex iste excepturi modi, perferendis sapiente ut amet debitis quod? Soluta iusto aperiam rem totam at. Veritatis ratione nisi excepturi totam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ex iste excepturi modi, perferendis sapiente ut amet debitis quod? Soluta iusto aperiam rem totam at. Veritatis ratione nisi excepturi totam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ex iste excepturi modi, perferendis sapiente ut amet debitis quod? Soluta iusto aperiam rem totam at. Veritatis ratione nisi excepturi totam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ex iste excepturi modi, perferendis sapiente ut amet debitis quod? Soluta iusto aperiam rem totam at. Veritatis ratione nisi excepturi totam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ex iste excepturi modi, perferendis sapiente ut amet debitis quod? Soluta iusto aperiam rem totam at. Veritatis ratione nisi excepturi totam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ex iste excepturi modi, perferendis sapiente ut amet debitis quod? Soluta iusto aperiam rem totam at. Veritatis ratione nisi excepturi totam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ex iste excepturi modi, perferendis sapiente ut amet debitis quod? Soluta iusto aperiam rem totam at. Veritatis ratione nisi excepturi totam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ex iste excepturi modi, perferendis sapiente ut amet debitis quod? Soluta iusto aperiam rem totam at. Veritatis ratione nisi excepturi totam.</p>
-        </section>
-        <aside>
-            <h2>Video 1</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam adipisci soluta tempora laboriosam dignissimos exercitationem quia, iusto sunt nemo minus. Ipsa rerum ad magni ullam sequi doloribus temporibus quod adipisci.</p>
-        </aside>
-    </main>
+		<div class="video">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/arapddN0bfc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<h3>Video 2</h3>
+			<p>Descrição do vídeo 2</p>
+		</div>
 
-    <footer>
-        <P>Feito por Edgar Martins</P>
-    </footer>
+		<div class="video">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/tBdx1b40rfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<h3>Video 3</h3>
+			<p>Descrição do vídeo 3</p>
+		</div>
+	</main>
+
+	<footer>
+		<p>Direitos autorais &copy; 2023 Site de Vídeo. Todos os direitos reservados.</p>
+	</footer>
 </body>
 </html>
